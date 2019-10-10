@@ -1,0 +1,22 @@
+#result,#result2,#result3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#loop{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#datedemo,#timedemo,#day{
+    background-color: chocolate;
+    height: 100px;
+    width: 210px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#timedemo{
+    border-radius: 50%;
+    display: inline-block;
+}
+p{
+    color: blue;
+}

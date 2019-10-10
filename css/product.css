@@ -1,0 +1,10 @@
+.product{
+    align-content: center;
+    border: 1px solid black;
+    width: 50%;
+    background-color: beige;
+    padding: 10px;
+}
+#id{
+   width: 50%;
+}

@@ -9,6 +9,3 @@ $(document).ready(function(){
     console.log(json);
  })
 });
-function addProduct($scope){
-
-}

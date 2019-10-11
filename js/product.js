@@ -1,11 +1,14 @@
 var arr = new Array();
-function addProduct(){
- var name =document.getElementById("name").value;
- var price =document.getElementById("price").value;
- var product = {productName:name,cost:price}
+$(document).ready(function(){
+ $("#but1").click(function addProduct(){
+    var name= $("#name").val();
+    var price =parseInt($("#price").val());
+    var product = {productName:name,cost:price}
+    arr.push(product);
+    let json= JSON.stringify(arr);
+    console.log(json);
+ })
+});
+function addProduct($scope){
 
- arr.push(product);
- var json= JSON.stringify(arr);
- 
-console.log(json);
 }
